@@ -16,8 +16,9 @@ export class HomeSection1Component {
     "https://lh3.googleusercontent.com/pw/ABLVV87Imm1P_ISOuXdAxYh1kiFcDBRThQscIS8j1Fqhd5ml8T1nTNufb_z95_GAlrsboN_u4WSYYC2cggO8wK0pK3L5r5R6Fhc6e_F0BMmA3Fv3tk6D69mB",
     "https://lh3.googleusercontent.com/pw/ABLVV84eoKSk1488cxLfUh153jq0AFK9YrQfsacKQsgDH-uKE25iwNj5qTW55a1N7PQotT93QdcdzUz-OX_T1wlcw6-mz62zsdk7yiZpqiJAD1-csBurpOwD",
     "https://lh3.googleusercontent.com/pw/ABLVV847a9v0Fx6RAEe3-8C3qczXLrEndWMIRQi-UWJBsJZ8unuFNZyGGUdfr_BrKgKVx3lWrnDnX20SsHyJnhJ6fAjrQzhSD-nj2xVAC0r7iBL5B3SK9lM8",
-    "https://lh3.googleusercontent.com/pw/ABLVV85ij96DQv0OHpr5v0Yq9TfA2BPQpqRRfiWRMR5nukDtrMytPpNtbP68F2ZBRhMnZxlvWG1xKsW-hkNGsembfKrda6rFgLLjTQcrMxSO5kCFXEmmXbpy"
-  ]
+    "https://lh3.googleusercontent.com/pw/ABLVV85ij96DQv0OHpr5v0Yq9TfA2BPQpqRRfiWRMR5nukDtrMytPpNtbP68F2ZBRhMnZxlvWG1xKsW-hkNGsembfKrda6rFgLLjTQcrMxSO5kCFXEmmXbpy",
+    "https://lh3.googleusercontent.com/pw/ABLVV86TAF09TbayIFQa4YZOrnHtlOiS0AGz7aqvYMHBz1HwwVjv5xqHKpJ9S81VV8l5pI8nOJEBC0_yhWRGKtoZXQW_SygEbPM5PMfYxpGm31aGu0WRLHgz"
+  ];
 
   constructor(
     private _dialog: MatDialog
