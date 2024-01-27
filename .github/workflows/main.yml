@@ -28,4 +28,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist/browser  # Adjust this path based on your Angular project build output
+        publish_dir: ./dist/jasmine-creates/browser  # Adjust this path based on your Angular project build output
