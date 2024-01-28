@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Honk&family=Single+Day&family=Sixtyfour&family=Work+Sans:wght@100;400&display=swap');
+
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+.great-vibes {
+    font-family: 'Great Vibes', cursive;
+}
+
+.honk {
+    font-family: 'Honk', system-ui;
+}
+
+.single-day {
+    font-family: 'Single Day', cursive;
+}
+
+.sixtyfour {
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+.work-sans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.fw-400{
+    font-weight: 400;
+}
+
+:root{
+    /* CSS HEX */
+    --chocolate-cosmos: #590d22ff;
+    --claret: #800f2fff;
+    --amaranth-purple: #a4133cff;
+    --rose-red: #c9184aff;
+    --bright-pink-crayola: #ff4d6dff;
+    --bright-pink-crayola-2: #ff758fff;
+    --salmon-pink: #ff8fa3ff;
+    --cherry-blossom-pink: #ffb3c1ff;
+    --pink: #ffccd5ff;
+    --lavender-blush: #fff0f3ff;
+}
+
+.chocolate-cosmos{
+    color: #590d22ff;
+}
+.claret{
+    color: #800f2fff;
+}
+.amaranth-purple{
+    color: #a4133cff;
+}
+.rose-red{
+    color: #c9184aff;
+}
+.bright-pink-crayola{
+    color: #ff4d6dff;
+}
+.bright-pink-crayola-2{
+    color: #ff758fff;
+}
+.salmon-pink{
+    color: #ff8fa3ff;
+}
+.cherry-blossom-pink{
+    color: #ffb3c1ff;
+}
+.pink{
+    color: #ffccd5ff;
+}
+.lavender-blush{
+    color: #fff0f3ff;
+}
+
+
+
+
+
+
+
