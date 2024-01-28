@@ -1,0 +1,11 @@
+section{
+    min-height: 80vh;
+    background-image: linear-gradient(pink, lightblue);
+    padding: 20px;
+}
+
+img{
+    object-fit: cover;
+    object-position: top;
+    float: left;
+}

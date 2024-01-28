@@ -1,0 +1,5 @@
+section{
+    background-image: linear-gradient(pink, yellow);
+    min-height: 80vh;
+    padding: 20px;
+}

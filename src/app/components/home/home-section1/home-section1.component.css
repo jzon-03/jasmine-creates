@@ -1,5 +1,11 @@
+aside{
+    padding: 20px;
+    min-height: 80vh;
+}
+
 img{
     object-fit: cover;
+    cursor: pointer;
 }
 
 .img-collection{
