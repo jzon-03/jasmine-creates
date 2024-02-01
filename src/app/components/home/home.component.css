@@ -1,8 +1,0 @@
-section{
-    max-width: 1000px;
-    min-height: 80vh;
-    margin: auto;
-}
-main{
-    background-image: linear-gradient(azure, yellow);
-}
