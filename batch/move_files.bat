@@ -15,7 +15,7 @@ rem Ensure destination folder exists, create if not
 if not exist "%destinationFolder%" mkdir "%destinationFolder%"
 
 rem Move files from source to destination
-move /Y "%sourceFolder%\*.*" "%destinationFolder%"
+xcopy /Y /E /I "%sourceFolder%\*" "%destinationFolder%"
 
 rem Copy index.html and rename it to 404.html
 copy /Y "%destinationFolder%\index.html" "%destinationFolder%\404.html"
