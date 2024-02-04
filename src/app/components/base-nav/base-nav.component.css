@@ -1,0 +1,8 @@
+.active-page{
+    color: darkgreen;
+    background-color: lightpink;
+}
+
+.nav-link:hover{
+    background-color: lightpink;
+}

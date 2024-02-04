@@ -13,6 +13,13 @@ import { MaterialModule } from '../material/material.module';
 import { AboutSection1Component } from '../../components/about/about-section1/about-section1.component';
 import { AboutSection2Component } from '../../components/about/about-section2/about-section2.component';
 import { AboutSection3Component } from '../../components/about/about-section3/about-section3.component';
+import { MediaComponent } from '../../components/media/media.component';
+import { SafeUrlPipe } from '../../safe-url.pipe';
+import { YoutubeSketchComponent } from '../../components/media/youtube-sketch/youtube-sketch.component';
+import { YoutubeWatercolorComponent } from '../../components/media/youtube-watercolor/youtube-watercolor.component';
+import { YoutubeCraftsComponent } from '../../components/media/youtube-crafts/youtube-crafts.component';
+import { YoutubeActivitiesComponent } from '../../components/media/youtube-activities/youtube-activities.component';
+import { UnderConstructionComponent } from '../../components/shared/under-construction/under-construction.component';
 
 
 
@@ -28,7 +35,14 @@ import { AboutSection3Component } from '../../components/about/about-section3/ab
     ImageDialogComponent,
     AboutSection1Component,
     AboutSection2Component,
-    AboutSection3Component
+    AboutSection3Component,
+    MediaComponent,
+    SafeUrlPipe,
+    YoutubeSketchComponent,
+    YoutubeWatercolorComponent,
+    YoutubeCraftsComponent,
+    YoutubeActivitiesComponent,
+    UnderConstructionComponent
   ],
   imports: [
     CommonModule,

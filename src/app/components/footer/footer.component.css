@@ -3,4 +3,23 @@ footer{
     max-width: 800px;
     margin: auto;
     padding: 15px;
+    text-align: center;
+}
+.social-media{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+.bi-youtube{
+    color: red;
+}
+
+.incomplete{
+    cursor: pointer;
+}
+
+.bi-instagram{
+    color: brown;
 }
