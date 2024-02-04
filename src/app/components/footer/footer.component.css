@@ -1,5 +1,6 @@
 footer{
-    min-height: 30vh;
+    position: relative;
+    height: 30vh;
     max-width: 800px;
     margin: auto;
     padding: 15px;
@@ -22,4 +23,8 @@ footer{
 
 .bi-instagram{
     color: brown;
+}
+
+.content{
+    z-index: 2;
 }

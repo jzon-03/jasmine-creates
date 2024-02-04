@@ -19,7 +19,8 @@ export class HomeSection1Component {
     "https://lh3.googleusercontent.com/pw/ABLVV85ij96DQv0OHpr5v0Yq9TfA2BPQpqRRfiWRMR5nukDtrMytPpNtbP68F2ZBRhMnZxlvWG1xKsW-hkNGsembfKrda6rFgLLjTQcrMxSO5kCFXEmmXbpy",
     "https://lh3.googleusercontent.com/pw/ABLVV86TAF09TbayIFQa4YZOrnHtlOiS0AGz7aqvYMHBz1HwwVjv5xqHKpJ9S81VV8l5pI8nOJEBC0_yhWRGKtoZXQW_SygEbPM5PMfYxpGm31aGu0WRLHgz",
     "https://lh3.googleusercontent.com/pw/ABLVV847NhMtj4jgDnTZPAZdkWldkXyM-6rS5p-ak9egle_cZwydm-Zb2kGaqNKest0jh5qVTz07ZC2uP8q7lGZo8sSqiZT-zcIIT7gDitqnqdDejlw-RSyw",
-    "https://lh3.googleusercontent.com/pw/ABLVV875gm3FYt3BIea1FEYlLdEGL5vNHs_bIwVCWWipAsvYP8NqfHQUOV2kvtm3FiyE6TyXwzZ0Zh_YAwN6tJ0phk6qp_ATHKblx-r-d-dMr15uMylvCBPf"
+    "https://lh3.googleusercontent.com/pw/ABLVV875gm3FYt3BIea1FEYlLdEGL5vNHs_bIwVCWWipAsvYP8NqfHQUOV2kvtm3FiyE6TyXwzZ0Zh_YAwN6tJ0phk6qp_ATHKblx-r-d-dMr15uMylvCBPf",
+    "https://lh3.googleusercontent.com/pw/ABLVV86vntDbulNJfPmJA9wB_OZz_bxidRyKcG86RGFOv621tBzZpQxKMisTO6uMyhqV8FqVPW-oco6P9h9JqFUfgCQ5H9kg4G_lLDMWqm6IAAMclr5pZGZvDyB9DaFRkjjiY3epj4p3k_NyuCVW7o6hIYaVmg"
   ];
 
   constructor(

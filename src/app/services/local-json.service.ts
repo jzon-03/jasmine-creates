@@ -11,18 +11,18 @@ export class LocalJsonService {
   ) { }
 
   getYoutubeSketchLinks(){
-    return this._http.get('assets/json/youtube-sketch.json');
+    return this._http.get('/assets/json/youtube-sketch.json');
   }
 
   getYoutubeWatercolorLinks(){
-    return this._http.get('assets/json/youtube-watercolor.json')
+    return this._http.get('/assets/json/youtube-watercolor.json')
   }
 
   getYoutubeActivitiesLinks(){
-    return this._http.get('assets/json/youtube-activities.json')
+    return this._http.get('/assets/json/youtube-activities.json')
   }
 
   getYoutubeCraftsLinks(){
-    return this._http.get('../../assets/json/youtube-crafts.json')
+    return this._http.get('/assets/json/youtube-crafts.json')
   }
 }
