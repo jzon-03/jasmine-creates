@@ -20,6 +20,8 @@ import { YoutubeWatercolorComponent } from '../../components/media/youtube-water
 import { YoutubeCraftsComponent } from '../../components/media/youtube-crafts/youtube-crafts.component';
 import { YoutubeActivitiesComponent } from '../../components/media/youtube-activities/youtube-activities.component';
 import { UnderConstructionComponent } from '../../components/shared/under-construction/under-construction.component';
+import { PrivacyNoticeComponent } from '../../components/privacy-notice/privacy-notice.component';
+import { PageNotFoundComponent } from '../../components/page-not-found/page-not-found.component';
 
 
 
@@ -42,7 +44,9 @@ import { UnderConstructionComponent } from '../../components/shared/under-constr
     YoutubeWatercolorComponent,
     YoutubeCraftsComponent,
     YoutubeActivitiesComponent,
-    UnderConstructionComponent
+    UnderConstructionComponent,
+    PrivacyNoticeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     CommonModule,
