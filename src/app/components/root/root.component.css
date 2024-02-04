@@ -4,14 +4,15 @@ main{
 .footer{
     position: relative;
     background-image: linear-gradient(pink,white);
+    height: 200px;
 }
-.spiral{
+img{
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url('/assets/images/sun_spiral.png');
-    background-position: center;
     opacity: .2;
+    object-fit: cover;
+    
 }
