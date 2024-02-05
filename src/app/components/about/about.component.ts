@@ -14,7 +14,7 @@ export class AboutComponent implements AfterViewInit, OnInit {
   
   ngOnInit(): void {
     this._seo.updateOGDescription();
-    this._seo.updateOGImage();
+    this._seo.updateOGImageUrl();
     this._seo.updateOGUrl();
     this._seo.updateOGtitle();
   }

@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit, Renderer2, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, OnInit, Renderer2 } from '@angular/core';
 import { SEOService } from '../../services/s-e-o.service';
 
 @Component({
@@ -15,7 +15,7 @@ export class MediaComponent implements AfterViewInit, OnInit {
   
   ngOnInit(): void {
     this._seoService.updateOGUrl("https://jzon-03.github.io/jasmine-creates/media");
-    this._seoService.updateOGImage("https://lh3.googleusercontent.com/pw/ABLVV85wiTlPhyq_VnSnKW9WfD4RWVV-QEjSvszWvYDU0h69yuaeswD7el4mU4rLc5AZbYYZwW-OoSZo9yA98qE2J7BIudo8HZzzUaaFN005Tj1HOy2kTN4o");
+    this._seoService.updateOGImageUrl("https://lh3.googleusercontent.com/pw/ABLVV85wiTlPhyq_VnSnKW9WfD4RWVV-QEjSvszWvYDU0h69yuaeswD7el4mU4rLc5AZbYYZwW-OoSZo9yA98qE2J7BIudo8HZzzUaaFN005Tj1HOy2kTN4o");
     this._seoService.updateOGDescription("Jasmine's colorful activities");
   }
 
