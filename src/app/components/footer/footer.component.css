@@ -1,6 +1,6 @@
 footer{
     position: relative;
-    height: 30vh;
+    max-height: 50vh;
     max-width: 800px;
     margin: auto;
     padding: 15px;
