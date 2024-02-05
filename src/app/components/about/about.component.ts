@@ -1,4 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { SEOService } from '../../services/s-e-o.service';
 
 @Component({
@@ -6,17 +6,18 @@ import { SEOService } from '../../services/s-e-o.service';
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
-export class AboutComponent implements AfterViewInit {
+export class AboutComponent implements AfterViewInit, OnInit {
 
   constructor(
     private _seo: SEOService
-  ){
+  ){  }
+  
+  ngOnInit(): void {
     this._seo.updateOGDescription();
     this._seo.updateOGImage();
     this._seo.updateOGUrl();
     this._seo.updateOGtitle();
   }
-
   
   ngAfterViewInit(): void {
     const backgroundElement = document.querySelector('.about-bg') as HTMLDivElement;
