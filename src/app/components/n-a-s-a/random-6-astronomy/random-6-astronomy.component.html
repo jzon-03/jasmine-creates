@@ -1,0 +1,54 @@
+<mat-progress-bar [mode]="mode"></mat-progress-bar>
+<div id="carouselExample" class="carousel slide bg-dark">
+    <div class="carousel-inner" *ngFor="let apod of random6; index as index">
+        <div class="carousel-item" [ngClass]="{'active': index===0}">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>
+                        6 Random Astronomy Picture Of The Day(APOD)
+                    </mat-card-title>
+                    <mat-card-subtitle>
+                        <div><i>{{apod.title}}</i></div>
+                        <hr>
+                        <div>
+                            <small>
+                                Copyright: {{apod.copyright}}
+                            </small>
+                        </div>
+                    </mat-card-subtitle>
+                </mat-card-header>
+                <img *ngIf="apod.hdurl" mat-card-image [src]="apod.url" [alt]="apod.copyright">
+                <!-- <iframe *ngIf="!apod.hdurl" [src]="apod.url" frameborder="0"></iframe> -->
+                <iframe width="100%" height="315" *ngIf="!apod.hdurl" [src]="apod.url | safeUrl" 
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <mat-card-content>
+                    <div>
+                        <strong>
+                            {{apod.date | date:'MMM/dd/yy'}}
+                        </strong>
+                    </div>
+                    <p>
+                        {{apod.explanation}}
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <a *ngIf="apod.hdurl" [href]="apod.hdurl" target="_blank" matTooltip="View full size">
+                        <button mat-icon-button>
+                            <mat-icon>open_in_new</mat-icon>
+                        </button>
+                    </a>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>

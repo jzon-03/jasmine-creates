@@ -22,6 +22,10 @@ import { YoutubeActivitiesComponent } from '../../components/media/youtube-activ
 import { UnderConstructionComponent } from '../../components/shared/under-construction/under-construction.component';
 import { PrivacyNoticeComponent } from '../../components/privacy-notice/privacy-notice.component';
 import { PageNotFoundComponent } from '../../components/page-not-found/page-not-found.component';
+import { TotalEclipseComponent } from '../../components/events/total-eclipse/total-eclipse.component';
+import { NASAComponent } from '../../components/n-a-s-a/n-a-s-a.component';
+import { PictureOfTheDayComponent } from '../../components/n-a-s-a/picture-of-the-day/picture-of-the-day.component';
+import { Random6AstronomyComponent } from '../../components/n-a-s-a/random-6-astronomy/random-6-astronomy.component';
 
 
 
@@ -46,7 +50,11 @@ import { PageNotFoundComponent } from '../../components/page-not-found/page-not-
     YoutubeActivitiesComponent,
     UnderConstructionComponent,
     PrivacyNoticeComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TotalEclipseComponent,
+    NASAComponent,
+    PictureOfTheDayComponent,
+    Random6AstronomyComponent
   ],
   imports: [
     CommonModule,

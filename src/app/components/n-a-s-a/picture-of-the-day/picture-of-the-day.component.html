@@ -1,0 +1,35 @@
+<mat-progress-bar [mode]="mode"></mat-progress-bar>
+<mat-card *ngIf="apod as apod">
+    <mat-card-header>
+        <mat-card-title>
+            Astronomy Picture Of The Day(APOD)
+        </mat-card-title>
+        <mat-card-subtitle>
+            <div><i>{{apod.title}}</i></div>
+            <hr>
+            <div>
+                <small>
+                    Copyright: {{apod.copyright}}
+                </small>
+            </div>
+        </mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="apod.url" [alt]="apod.copyright">
+    <mat-card-content>
+        <div>
+            <strong>
+                {{apod.date | date:'MMM/dd/yy'}}
+            </strong>
+        </div>
+        <p>
+            {{apod.explanation}}
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <a [href]="apod.hdurl" target="_blank" matTooltip="View full size">
+            <button mat-icon-button>
+                <mat-icon>open_in_new</mat-icon>
+            </button>
+        </a>
+    </mat-card-actions>
+</mat-card>

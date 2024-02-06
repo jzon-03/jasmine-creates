@@ -1,11 +1,24 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-base-nav',
   templateUrl: './base-nav.component.html',
   styleUrl: './base-nav.component.css'
 })
-export class BaseNavComponent implements AfterViewInit {
+export class BaseNavComponent implements AfterViewInit, OnInit {
+
+  april8 = new Date('04/05/2024');
+  dateNow = new Date();
+  expired = false;
+
+  ngOnInit(): void {
+    if (this.dateNow>= this.april8){
+      this.expired = true;
+    }else{
+      this.expired = false;
+    }
+    
+  }
 
   ngAfterViewInit(): void {
     const backgroundElement = document.querySelector('.base-nav-bg') as HTMLDivElement;

@@ -1,0 +1,11 @@
+main{
+    background-color: rgb(32, 32, 32);
+}
+section{
+    max-width: 1000px;
+    margin: auto;
+    min-height: 80vh;
+}
+iframe{
+    height: 80vh;
+}

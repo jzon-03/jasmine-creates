@@ -1,0 +1,23 @@
+<mat-drawer-container class="side-container">
+    <mat-drawer #drawer mode="over">
+        <mat-nav-list>
+            <button mat-icon-button (click)="drawer.toggle()">
+                <mat-icon>close</mat-icon>
+            </button>
+            <a routerLink="/nasa/apod" routerLinkActive="bg-info" mat-list-item>
+                APOD
+            </a>
+            <a routerLink="/nasa/random" routerLinkActive="bg-info" mat-list-item>
+                6 Random Images
+            </a>
+        </mat-nav-list>
+    </mat-drawer>
+
+    <div class="example-sidenav-content">
+        <button mat-icon-button (click)="drawer.toggle()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <router-outlet></router-outlet>
+    </div>
+
+</mat-drawer-container>
