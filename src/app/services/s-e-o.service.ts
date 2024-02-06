@@ -15,7 +15,7 @@ export class SEOService {
   }
 
   updateOGImageUrl(imgUrl: string = "https://lh3.googleusercontent.com/pw/ABLVV87h7xRlIytcZqTVZTeBgu0YfsvdsftO7NmCd8hcH-IPTkj67lAy4xx1ayHvLUJiFMIsq6VgzbcYDVS6FydCHQledGl8p8ChaD7CnqAytiQWOgC5WXZn"){
-    this.meta.updateTag({property: 'og:image:secure_url', content: imgUrl});
+    this.meta.updateTag({property: 'og:image', content: imgUrl});
   }
 
   updateOGImageType(imgType: string = "image/jpg"){
