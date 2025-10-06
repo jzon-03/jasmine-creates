@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-about-section3',
-  templateUrl: './about-section3.component.html',
-  styleUrl: './about-section3.component.css'
+    selector: 'app-about-section3',
+    templateUrl: './about-section3.component.html',
+    styleUrl: './about-section3.component.css',
+    standalone: false
 })
 export class AboutSection3Component {
 

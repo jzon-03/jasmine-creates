@@ -3,9 +3,10 @@ import { MatDialog } from '@angular/material/dialog';
 import { ImageDialogComponent } from '../../shared/image-dialog/image-dialog.component';
 
 @Component({
-  selector: 'app-home-section1',
-  templateUrl: './home-section1.component.html',
-  styleUrl: './home-section1.component.css'
+    selector: 'app-home-section1',
+    templateUrl: './home-section1.component.html',
+    styleUrl: './home-section1.component.css',
+    standalone: false
 })
 export class HomeSection1Component {
   images = [

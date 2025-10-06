@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-n-a-s-a',
-  templateUrl: './n-a-s-a.component.html',
-  styleUrl: './n-a-s-a.component.css'
+    selector: 'app-n-a-s-a',
+    templateUrl: './n-a-s-a.component.html',
+    styleUrl: './n-a-s-a.component.css',
+    standalone: false
 })
 export class NASAComponent {
 

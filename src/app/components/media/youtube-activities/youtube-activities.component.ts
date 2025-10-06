@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { LocalJsonService } from '../../../services/local-json.service';
 
 @Component({
-  selector: 'app-youtube-activities',
-  templateUrl: './youtube-activities.component.html',
-  styleUrl: './youtube-activities.component.css'
+    selector: 'app-youtube-activities',
+    templateUrl: './youtube-activities.component.html',
+    styleUrl: './youtube-activities.component.css',
+    standalone: false
 })
 export class YoutubeActivitiesComponent implements OnInit {
 

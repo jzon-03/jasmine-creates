@@ -1,9 +1,10 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-base-nav',
-  templateUrl: './base-nav.component.html',
-  styleUrl: './base-nav.component.css'
+    selector: 'app-base-nav',
+    templateUrl: './base-nav.component.html',
+    styleUrl: './base-nav.component.css',
+    standalone: false
 })
 export class BaseNavComponent implements AfterViewInit, OnInit {
 

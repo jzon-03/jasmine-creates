@@ -2,9 +2,10 @@ import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import anime from 'animejs/lib/anime.es';
 
 @Component({
-  selector: 'app-home-section2',
-  templateUrl: './home-section2.component.html',
-  styleUrl: './home-section2.component.css'
+    selector: 'app-home-section2',
+    templateUrl: './home-section2.component.html',
+    styleUrl: './home-section2.component.css',
+    standalone: false
 })
 export class HomeSection2Component implements AfterViewInit {
   @ViewChild('text', { static: true }) public text!: ElementRef;

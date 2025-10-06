@@ -2,9 +2,10 @@ import { AfterViewInit, Component, OnInit, Renderer2 } from '@angular/core';
 import { SEOService } from '../../services/s-e-o.service';
 
 @Component({
-  selector: 'app-media',
-  templateUrl: './media.component.html',
-  styleUrl: './media.component.css'
+    selector: 'app-media',
+    templateUrl: './media.component.html',
+    styleUrl: './media.component.css',
+    standalone: false
 })
 export class MediaComponent implements AfterViewInit, OnInit {
 

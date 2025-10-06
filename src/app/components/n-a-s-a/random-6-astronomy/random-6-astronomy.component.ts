@@ -3,9 +3,10 @@ import { ProgressBarMode } from '@angular/material/progress-bar';
 import { NasaApiService } from '../../../services/nasa-api.service';
 
 @Component({
-  selector: 'app-random-6-astronomy',
-  templateUrl: './random-6-astronomy.component.html',
-  styleUrl: './random-6-astronomy.component.css'
+    selector: 'app-random-6-astronomy',
+    templateUrl: './random-6-astronomy.component.html',
+    styleUrl: './random-6-astronomy.component.css',
+    standalone: false
 })
 export class Random6AstronomyComponent implements OnInit {
 

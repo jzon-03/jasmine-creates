@@ -2,9 +2,10 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { SEOService } from '../../services/s-e-o.service';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrl: './about.component.css'
+    selector: 'app-about',
+    templateUrl: './about.component.html',
+    styleUrl: './about.component.css',
+    standalone: false
 })
 export class AboutComponent implements AfterViewInit, OnInit {
 
