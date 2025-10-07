@@ -10,6 +10,7 @@ import { TotalEclipseComponent } from './components/events/total-eclipse/total-e
 import { NASAComponent } from './components/n-a-s-a/n-a-s-a.component';
 import { PictureOfTheDayComponent } from './components/n-a-s-a/picture-of-the-day/picture-of-the-day.component';
 import { Random6AstronomyComponent } from './components/n-a-s-a/random-6-astronomy/random-6-astronomy.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 const routes: Routes = [
   {path: '', component: RootComponent,
@@ -35,6 +36,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}]
 })
 export class AppRoutingModule { }
