@@ -1,0 +1,20 @@
+.adsbygoogle {
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Responsive ad container */
+.ad-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+/* Mobile optimized */
+@media (max-width: 768px) {
+  .adsbygoogle {
+    margin: 15px 0;
+  }
+}

@@ -26,6 +26,7 @@ import { TotalEclipseComponent } from '../../components/events/total-eclipse/tot
 import { NASAComponent } from '../../components/n-a-s-a/n-a-s-a.component';
 import { PictureOfTheDayComponent } from '../../components/n-a-s-a/picture-of-the-day/picture-of-the-day.component';
 import { Random6AstronomyComponent } from '../../components/n-a-s-a/random-6-astronomy/random-6-astronomy.component';
+import { AdsenseComponent } from '../../components/shared/adsense/adsense.component';
 
 
 
@@ -54,12 +55,16 @@ import { Random6AstronomyComponent } from '../../components/n-a-s-a/random-6-ast
     TotalEclipseComponent,
     NASAComponent,
     PictureOfTheDayComponent,
-    Random6AstronomyComponent
+    Random6AstronomyComponent,
+    AdsenseComponent
   ],
   imports: [
     CommonModule,
     RouterModule,
     MaterialModule
+  ],
+  exports: [
+    AdsenseComponent
   ]
 })
 export class ComponentsModule { }
