@@ -25,6 +25,7 @@ export class AdsenseComponent implements OnInit, AfterViewInit {
     
     if (this.showAd) {
       this.adsenseService.initializeAdsense();
+      console.log('AdSense component initialized for slot:', this.adSlot);
     }
   }
 

@@ -12,6 +12,7 @@ declare global {
 })
 export class AdsenseService {
   private adsbygoogleInitialized = false;
+  private autoAdsEnabled = true; // Auto Ads are enabled globally
 
   constructor() { }
 
@@ -22,6 +23,12 @@ export class AdsenseService {
   }
 
   pushAd(): void {
+    // Skip manual ad initialization when Auto Ads are enabled
+    if (this.autoAdsEnabled) {
+      console.log('AdSense: Auto Ads enabled - skipping manual ad initialization');
+      return;
+    }
+    
     setTimeout(() => {
       try {
         (adsbygoogle = window.adsbygoogle || []).push({});
@@ -29,5 +36,9 @@ export class AdsenseService {
         console.error('AdSense error:', e);
       }
     }, 100);
+  }
+
+  setAutoAdsEnabled(enabled: boolean): void {
+    this.autoAdsEnabled = enabled;
   }
 }
