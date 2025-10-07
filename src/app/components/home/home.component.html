@@ -1,23 +1,25 @@
 <section>
     <app-home-section2></app-home-section2>
     
-    <!-- AdSense Ad - Between sections -->
+    <!-- AdSense Ad - Between sections (placeholder until real ad slots configured) -->
     <div class="ad-container">
         <app-adsense 
             adSlot="1234567890" 
             adFormat="auto"
-            [fullWidthResponsive]="true">
+            [fullWidthResponsive]="true"
+            [disabled]="false">
         </app-adsense>
     </div>
     
     <app-home-section1></app-home-section1>
     
-    <!-- AdSense Ad - After content -->
+    <!-- AdSense Ad - After content (placeholder until real ad slots configured) -->
     <div class="ad-container">
         <app-adsense 
             adSlot="0987654321" 
             adFormat="rectangle"
-            [fullWidthResponsive]="false">
+            [fullWidthResponsive]="false"
+            [disabled]="false">
         </app-adsense>
     </div>
 </section>

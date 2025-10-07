@@ -12,9 +12,43 @@
   margin: 20px auto;
 }
 
+/* Ad placeholder for development */
+.ad-placeholder {
+  display: block;
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #666;
+}
+
+.placeholder-content {
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder-content p {
+  margin: 2px 0;
+}
+
+.placeholder-content small {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
 /* Mobile optimized */
 @media (max-width: 768px) {
   .adsbygoogle {
     margin: 15px 0;
+  }
+  
+  .ad-placeholder {
+    margin: 15px 0;
+    padding: 15px;
   }
 }

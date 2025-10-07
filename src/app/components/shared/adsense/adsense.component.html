@@ -1,6 +1,15 @@
-<ins class="adsbygoogle"
+<!-- Show ad only if we have valid configuration -->
+<ins *ngIf="showAd" class="adsbygoogle"
      [attr.data-ad-client]="adClient"
      [attr.data-ad-slot]="adSlot"
      [attr.data-ad-format]="adFormat"
      [attr.data-full-width-responsive]="fullWidthResponsive"
      [style.display]="display"></ins>
+
+<!-- Show placeholder in development or when ads are disabled -->
+<div *ngIf="!showAd" class="ad-placeholder">
+  <div class="placeholder-content">
+    <p><small>Ad Space Reserved</small></p>
+    <p><small>{{disabled ? 'Ads Disabled' : 'Configure AdSense'}}</small></p>
+  </div>
+</div>
